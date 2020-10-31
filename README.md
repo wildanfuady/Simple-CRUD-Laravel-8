@@ -9,13 +9,14 @@
 
 ## Cara Installasi
 
+- Buka Terminal / CMD
 - Clone project <code>https://github.com/wildanfuady/Simple-CRUD-Laravel-8.git</code>
 - cd simple-crud-laravel-8
-- composer install
-- cp .env.example .enc
+- Ketik <code>composer install</code>
+- Kemudian ketik <code>cp .env.example .env</code>
 - Ketik <code>php artisan key:generate</code>
 - Buat database baru bernama <code>db_laravel8_crud</code>
-- Konfigurasi database di .env
+- Konfigurasi database di <code>.env</code>
 - Ketik <code>php artisan migrate</code>
 - Jalankan dengan <code>php artisan serve</code>
 - Buka browser dan ketik <code>http://127.0.0.1:8000/posts</code>
